@@ -1,0 +1,53 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: rgba(255, 0, 0, 0.5);
+}
+
+header{
+  background-image: linear-gradient(to right, rgba(104, 50, 168, 0.75), rgba(50, 168, 164, 0.5));
+  min-height: 100px;
+  text-align: center;
+}
+
+header h1{
+  font-family: 'MonteCarlo', sans-serif;
+  padding: 10px;
+  margin-top: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+section{
+  width: 100%;
+}
+
+section img{
+  width: 100%;
+  border: 3px purple solid;
+}
+
+footer{
+  background-image: linear-gradient(to right, rgba(104, 50, 168, 0.75), rgba(50, 168, 164, 0.5));
+  width: 100%;
+  text-align: center;
+}
+
+footer img{
+  padding: 5px;
+  border-radius: 30%;
+}
+
+footer p{
+  font-family: sans-serif;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
